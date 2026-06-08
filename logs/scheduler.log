@@ -1,0 +1,1088 @@
+[2026-06-05 10:18:09] [SCHEDULER] Scheduler check started.
+[2026-06-05 10:18:09] [SCHEDULER] Starting unattended turn (PID 4323).
+[2026-06-05 10:18:10] [SCHEDULER] Turn exited with code 1.
+[2026-06-05 10:18:10] [TURN ERROR]
+⠀                                ▄     
+█▀▀█ █▀▀█ █▀▀█ █▀▀▄ █▀▀▀ █▀▀█ █▀▀█ █▀▀█
+█  █ █  █ █▀▀▀ █  █ █    █  █ █  █ █▀▀▀
+▀▀▀▀ █▀▀▀ ▀▀▀▀ ▀  ▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀
+
+Commands:
+  opencode completion          generate shell completion script
+  opencode acp                 start ACP (Agent Client Protocol) server
+  opencode mcp                 manage MCP (Model Context Protocol) servers
+  opencode [project]           start opencode tui                                          [default]
+  opencode attach <url>        attach to a running opencode server
+  opencode run [message..]     run opencode with a message
+  opencode debug               debugging and troubleshooting tools
+  opencode providers           manage AI providers and credentials                   [aliases: auth]
+  opencode agent               manage agents
+  opencode u[2026-06-05 10:18:10] [SCHEDULER] Turn finished. Next check in 10 minutes.
+[2026-06-05 10:20:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 10:20:01] [SCHEDULER] Starting unattended turn (PID 4361).
+[2026-06-05 10:20:01] [SCHEDULER] Turn exited with code 127.
+[2026-06-05 10:20:01] [TURN ERROR]
+/home/daryl/Documents/ai_workloads/tools/unattended/scheduler.sh: line 97: opencode: command not found
+[2026-06-05 10:20:01] [SCHEDULER] Turn finished. Next check in 10 minutes.
+[2026-06-05 10:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 10:30:01] [SCHEDULER] Starting unattended turn (PID 4491).
+[2026-06-05 10:40:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 10:40:01] [SCHEDULER] Another turn is running (PID 4491). Skipping.
+[2026-06-05 10:50:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 10:50:01] [SCHEDULER] Another turn is running (PID 4491). Skipping.
+[2026-06-05 10:50:31] [SCHEDULER] Turn completed successfully.
+[2026-06-05 10:50:31] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m→ [0mRead tools/unattended/approval_queue.md
+[0m
+[0m$ [0mls /home/daryl/Documents/ai_workloads/tools/unattended/
+activity_log.md
+approval_queue.md
+directives.md
+guardrails.md
+logs
+README.md
+scheduler.sh
+seed_prompt.txt
+state.json
+templates
+turn_runner.py
+UNATTENDED.env
+[0m
+[0m$ [0mls /home/daryl/Documents/ai_workloads/ | head -30
+AGENTS.md
+check_your_work.py
+codex
+deepseek
+ex280-study
+ex280_study_guide
+finances
+framework_documentation
+future_project_ideas
+ideas_and_research
+legacy_llm_directories
+self_exploration
+send_gpu_report_email.py
+session_state.json
+tools
+[0m
+Turn 3 starting. Highest-priority directive: MLOps portfolio project. Let me build it.
+[0m$ [0mmkdir -p /home/daryl/Documents/ai_workloads/mlops_portfolio/{data,models,src/{ingestion,training,serving,monitoring},tests,docs,scripts}
+(no output)
+[0m
+Building the MLOps portfolio project. Creating the full pipeline structure.
+[0m← [0mWrite mlops_portfolio/requirements.txt
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/README.md
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/src/ingestion/data_loader.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/src/ingestion/__init__.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/src/training/trainer.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/src/training/__init__.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/src/serving/metrics.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/src/serving/schemas.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/src/serving/app.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite mlops_portfolio/src/serving/__init__.py
+Wrote file successfull...
+[2026-06-05 10:50:31] [SCHEDULER] Turn finished. Next check in 10 minutes.
+[2026-06-05 11:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 11:00:01] [SCHEDULER] Starting unattended turn (PID 5189).
+[2026-06-05 11:10:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 11:10:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 11:19:06] [SCHEDULER] Turn completed successfully.
+[2026-06-05 11:19:06] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m✱ [0mGlob "**/langgraph*"[90m in . · 0 matches[0m
+[0m→ [0mRead tools/unattended/logs/research/multi-agent-landscape-2026-06-05.md
+[0m✱ [0mGlob "mlops_portfolio/**/*"[90m in . · 100 matches[0m
+[0m
+[0m$ [0mpip3 list 2>/dev/null | grep -iE "lang|graph|crew|fastapi|pydantic" || echo "No matching packages"
+No matching packages
+[0m
+[0m$ [0mpython3 --version && pip3 --version 2>/dev/null
+Python 3.9.23
+[0m
+[0m$ [0mmkdir -p /home/daryl/Documents/ai_workloads/langgraph_agents/{src/{agents,workflow},tests,docs}
+(no output)
+[0m
+Now I'll build the LangGraph multi-agent workflow project. Let me create the full project structure.
+[0m← [0mWrite langgraph_agents/requirements.txt
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/__init__.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/agents/__init__.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/workflow/__init__.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/config.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/state.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/agents/code_review.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/agents/testing.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/agents/documentation.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/workflow/engine.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/src/serving.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/tests/test_workflow.py
+Wrote file successfully.
+[0m
+[0m← [0mWrite langgraph_agents/README.md
+Wrote file successfully.
+[0m
+[0m← [0m...
+[2026-06-05 11:19:06] [SCHEDULER] Turn finished. Next check in 10 minutes.
+[2026-06-05 11:20:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 11:20:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 11:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 11:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 11:33:44] [SCHEDULER] Scheduler check started.
+[2026-06-05 11:33:44] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 11:34:02] [SCHEDULER] Scheduler check started.
+[2026-06-05 11:34:02] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 11:34:03] [SCHEDULER] GPU idle (utilization <= 20%): . Proceeding.
+[2026-06-05 11:34:03] [SCHEDULER] Starting unattended turn (PID 5691).
+[2026-06-05 11:38:30] [SCHEDULER] Scheduler check started.
+[2026-06-05 11:38:30] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 11:38:31] [SCHEDULER] GPU busy (utilization > 20%): 41%, 43%, 0%. Skipping turn.
+[2026-06-05 11:40:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 11:40:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 11:40:02] [SCHEDULER] GPU busy (utilization > 20%): 23%, 28%, 17%. Skipping turn.
+[2026-06-05 12:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 12:00:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 12:00:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 12:00:02] [SCHEDULER] Starting unattended turn (PID 6357).
+[2026-06-05 12:20:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 12:20:01] [SCHEDULER] Another turn is running (PID 6357). Skipping.
+[2026-06-05 12:25:37] [SCHEDULER] Turn completed successfully.
+[2026-06-05 12:25:37] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/**/*.py"[90m 29 matches[0m
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -150
+--- Email 1 ---
+From: "Chess.com" <hello@chess.com>
+Subject: You're on a 1 Day Streak, How_This_Works! 🔥
+Date: Sat, 02 May 2026 01:01:02 +0000 (UTC)
+------------------------------------------------------------
+Body preview: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><meta http-equiv=Content-Type content="text/html; charset=utf-8"><m...
+
+--- Email 2 ---
+From: "Chess.com" <hello@chess.com>
+Subject: You're on a 2 Day Streak, How_This_Works! 🔥
+Date: Sun, 03 May 2026 01:04:01 +0000 (UTC)
+------------------------------------------------------------
+Body preview: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><meta http-equiv=Content-Type content="text/html; charset=utf-8"><m...
+
+--- Email 3 ---
+From: "Chess.com" <hello@chess.com>
+Subject: Your 2 Day Streak is Paused! ⏸️
+Date: Mon, 04 May 2026 01:03:50 +0000 (UTC)
+------------------------------------------------------------
+Body preview: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><meta http-equiv=Content-Type content="text/html; charset=utf-8"><m...
+
+--- Email 4 ---
+From: "Chess.com" <hello@chess.com>
+Subject: You'[2026-06-05 12:40:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 12:40:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 12:40:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 12:40:02] [SCHEDULER] Starting unattended turn (PID 7285).
+[2026-06-05 13:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 13:00:01] [SCHEDULER] Another turn is running (PID 7285). Skipping.
+[2026-06-05 13:20:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 13:20:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 13:27:38] [SCHEDULER] Turn completed successfully.
+[2026-06-05 13:27:38] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -200
+--- Email 1 ---
+From: "Chess.com" <hello@chess.com>
+Subject: You're on a 1 Day Streak, How_This_Works! 🔥
+Date: Sun, 12 Apr 2026 02:03:17 +0000 (UTC)
+------------------------------------------------------------
+Body preview: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><meta http-equiv=Content-Type content="text/html; charset=utf-8"><m...
+
+--- Email 2 ---
+From: "Chess.com" <hello@chess.com>
+Subject: You're on a 2 Day Streak, How_This_Works! 🔥
+Date: Tue, 14 Apr 2026 02:03:18 +0000 (UTC)
+------------------------------------------------------------
+Body preview: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><meta http-equiv=Content-Type content="text/html; charset=utf-8"><m...
+
+--- Email 3 ---
+From: "Chess.com" <hello@chess.com>
+Subject: Your 2 Day Streak is Paused! ⏸️
+Date: Wed, 15 Apr 2026 02:01:10 +0000 (UTC)
+------------------------------------------------------------
+Body preview: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><meta http-equiv=Content-Type content="text/html; charset=utf-8"><m...
+
+--- Email 4 ---[2026-06-05 13:40:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 13:40:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 14:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 14:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 14:20:02] [SCHEDULER] Scheduler check started.
+[2026-06-05 14:20:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 14:40:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 14:40:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 15:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 15:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 15:20:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 15:20:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 15:40:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 15:40:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 16:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 16:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 16:20:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 16:20:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 16:40:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 16:40:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 17:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 17:00:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 17:00:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 17:00:02] [SCHEDULER] Starting unattended turn (PID 421311).
+[2026-06-05 17:11:24] [SCHEDULER] Turn completed successfully.
+[2026-06-05 17:11:24] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -150
+--- Email 1 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Re: This is a test
+Date: Fri, 5 Jun 2026 12:48:24 -0600
+------------------------------------------------------------
+Body preview: Well done! Use an upcoming turn to look through your self exploration tasks
+and complete something on that list. If you're unclear, send me the list
+and I'll give further; instructions.
+
+Daryl
+
+...
+
+Total: 1 email(s)
+[0m
+[0m→ [0mRead tools/llm-email-automation/src/send_html_email.py[90m [limit=50][0m
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --full 2>&1 | head -200
+usage: read_emails.py [-h] [--query QUERY] [--folder FOLDER] [--limit LIMIT]
+read_emails.py: error: unrecognized arguments: --full
+[0m
+[0m→ [0mRead self_exploration
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --limit 5 2>&1
+No emails found.
+[0m
+[0m→ [0mRead self_exploration/roadmap.md
+[0m→ [0mRead self_exploration/qol_improvements.md
+[0m→ [0mRead self_exploration/tools_audit.md
+[0m
+[0m# [0mTodos
+[•] Reply to Daryl's email — pick a self-exploration task and execute it
+[ ] Build Context Budget Tracking (#14) — token waste detection tool
+[ ] Send turn report email t...
+[2026-06-05 17:11:24] [SCHEDULER] Turn finished. Next check in 10 minutes.
+[2026-06-05 17:20:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 17:20:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 17:20:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 17:20:02] [SCHEDULER] Starting unattended turn (PID 421677).
+[2026-06-05 17:40:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 17:40:01] [SCHEDULER] Another turn is running (PID 421677). Skipping.
+[2026-06-05 17:42:22] [SCHEDULER] Turn completed successfully.
+[2026-06-05 17:42:22] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -200
+No emails found.
+[0m
+[0m→ [0mRead future_project_ideas/stock_market_prediction/RESEARCH_DESIGN.md
+[0m→ [0mRead tools/unattended/activity_log.md
+No new emails. Moving to the highest-priority active directive: **Stock Market Prediction Project — Phase 1**.
+[0m
+[0m$ [0mpip3 install yfinance lightgbm ta backtrader matplotlib 2>&1 | tail -20
+/bin/sh: line 1: pip3: command not found
+[0m
+[0m$ [0mmkdir -p /home/daryl/Documents/ai_workloads/stock_market_prediction/{data_pipeline,features,models,ensemble,backtest,tests}
+(no output)
+[0m
+No emails. Starting **Stock Market Prediction Project — Phase 1**: Data Pipeline & Feature Engineering.
+[0m$ [0mpython3 -m pip install yfinance lightgbm ta backtrader matplotlib 2>&1 | tail -30
+Downloading contourpy-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (321 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.60.2-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 22.2 MB/s  0:00:00
+Downloading frozendict-2.4.7-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (119 kB)
+Downloading importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+Downloading kiwisolver-1.4.[2026-06-05 18:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 18:00:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 18:00:01] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 18:00:01] [SCHEDULER] Starting unattended turn (PID 423419).
+[2026-06-05 18:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 18:15:01] [SCHEDULER] Another turn is running (PID 423419). Skipping.
+[2026-06-05 18:28:10] [SCHEDULER] Turn completed successfully.
+[2026-06-05 18:28:10] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -200
+No emails found.
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py 2>&1 | head -100
+usage: search_emails.py [-h] --query QUERY [--folder FOLDER] [--limit LIMIT]
+search_emails.py: error: the following arguments are required: --query
+[0m
+[0m→ [0mRead future_project_ideas/stock_market_prediction
+No new emails. Moving to Phase 2 of Stock Market Prediction Project. Let me read the existing codebase first.
+[0m✱ [0mGlob "**/stock_market_prediction/**/*.py"[90m 6 matches[0m
+[0m✱ [0mGlob "**/stock_prediction/**/*.py"[90m 0 matches[0m
+[0m✱ [0mGlob "**/stock_*/**/*.py"[90m 6 matches[0m
+[0m→ [0mRead stock_market_prediction/data_pipeline/data_fetcher.py
+[0m→ [0mRead stock_market_prediction/features/engine.py
+[0m→ [0mRead stock_market_prediction/features/walk_forward.py
+[0m→ [0mRead stock_market_prediction/tests/test_phase1.py
+[0m→ [0mRead future_project_ideas/stock_market_prediction/RESEARCH_DESIGN.md
+[0m
+[0m$ [0mpip3 list 2>/dev/null | grep -iE "lightgbm|xgboost|torch|sklearn|scikit"
+(no output)
+[0m
+Good. Phase 1 is complete with data pipeline, 55 features, and walk-forward validation. Now executing Phase 2: training the three models. Let me check available packages first.
+[0m$ [0mpip3 install lightgbm scikit-learn torch --quiet 2>&1 | t[2026-06-05 18:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 18:30:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 18:30:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 18:30:02] [SCHEDULER] Starting unattended turn (PID 484686).
+[2026-06-05 18:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 18:45:01] [SCHEDULER] Another turn is running (PID 484686). Skipping.
+[2026-06-05 19:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 19:00:01] [SCHEDULER] Another turn is running (PID 484686). Skipping.
+[2026-06-05 19:03:53] [SCHEDULER] Turn completed successfully.
+[2026-06-05 19:03:53] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -150
+--- Email 1 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Update me please
+Date: Fri, 5 Jun 2026 18:27:00 -0600
+------------------------------------------------------------
+Body preview: Please provide an update about what you're working on. Also, in your turn
+10 update I saw you put the date and time in the header. The time was off.
+Figure out why you included the wrong time. You l...
+
+Total: 1 email(s)
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 1 2>&1
+usage: read_emails.py [-h] [--query QUERY] [--folder FOLDER] [--limit LIMIT]
+read_emails.py: error: unrecognized arguments: 1
+[0m
+[0m→ [0mRead tools/llm-email-automation/src/read_emails.py
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --query 'FROM "daryl.allen.jr"' --limit 5 2>&1
+--- Email 1 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Re: Bot #5034: Test Email
+Date: Wed, 18 Mar 2026 20:49:39 -0600
+------------------------------------------------------------
+Body preview: Yo Bot! What's up? It worked!
+
+Daryl
+
+On Wed, Mar 18, 2026, 8:46 PM <bot.daryl.allen@gmail.com> wrote:
+
+> Hello Daryl,
+>
+> This is a test email from Bot #5034.
+>
+> I'm working on Moltbook au...
+
+--- Em[2026-06-05 19:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 19:15:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 19:15:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 19:15:02] [SCHEDULER] Starting unattended turn (PID 497968).
+[2026-06-05 19:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 19:30:01] [SCHEDULER] Another turn is running (PID 497968). Skipping.
+[2026-06-05 19:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 19:45:01] [SCHEDULER] Another turn is running (PID 497968). Skipping.
+[2026-06-05 19:49:39] [SCHEDULER] Turn completed successfully.
+[2026-06-05 19:49:39] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -150
+--- Email 1 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Ideas For Future Projects
+Date: Fri, 5 Jun 2026 18:38:54 -0600
+------------------------------------------------------------
+Body preview: Hello agent Daryl,
+
+I had an Idea for future projects and research. Research what type of
+general compute problems we could approach and solve with the compute
+resources we have on the inference s...
+
+Total: 1 email(s)
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --full 2>&1 | head -200
+usage: read_emails.py [-h] [--query QUERY] [--folder FOLDER] [--limit LIMIT]
+read_emails.py: error: unrecognized arguments: --full
+[0m
+[0m→ [0mRead tools/llm-email-automation/src/read_emails.py
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py 'FROM "daryl.allen.jr@gmail.com"' 2>&1
+usage: search_emails.py [-h] --query QUERY [--folder FOLDER] [--limit LIMIT]
+search_emails.py: error: the following arguments are required: --query
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --query 'FROM "daryl.allen.jr"' 2>&1
+Error searching emails: name 'email' is not defined
+No emails found.
+[0m
+[0m→ [0mRead tools/llm-email[2026-06-05 20:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 20:00:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 20:00:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 20:00:02] [SCHEDULER] Starting unattended turn (PID 510977).
+[2026-06-05 20:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 20:15:02] [SCHEDULER] Another turn is running (PID 510977). Skipping.
+[2026-06-05 20:29:21] [SCHEDULER] Turn completed successfully.
+[2026-06-05 20:29:21] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --inbox --limit 20 2>&1
+usage: search_emails.py [-h] --query QUERY [--folder FOLDER] [--limit LIMIT]
+search_emails.py: error: the following arguments are required: --query
+[0m
+[0m→ [0mRead tools/llm-email-automation/src/search_emails.py[90m [limit=50][0m
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --query "UNSEEN" --limit 20 2>&1
+--- Email 1 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Re: agent-daryl Turn 13 Report — GPU Research + Phase 4 Backtest
+Body: Regarding this question: [ Strategic Decision Point
+
+The walk-forward backtest confirms what Phase 3 suggested: *this approach
+will never beat buy-and-hold in a bull market*. The question is what t...
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --query "UNSEEN" --limit 5 2>&1
+No emails found.
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --query 'FROM "daryl.allen.jr@gmail.com"' --limit 5 2>&1
+--- Email 1 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Re: agent-daryl Turn 7 Report - 2 repos pushed, OpenShift Health
+ Monitor built
+Body: Please delete the emails from chess.com.
+
+On Fri, Jun 5, 2026, 12:25 PM <bot.daryl.allen@gmail.com> wrote:
+
+> Turn 7 Report
+>
+> agent-daryl · 2026-06-05 · Unattended Execution
+> Turn Metrics
+>...
+
+--- Email 2 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Re: This is a test
+Body: Well done! Use an upcoming turn to look through your self exploration tasks
+and complete something on that list. If you're unclear, [2026-06-05 20:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 20:30:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 20:30:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 20:30:02] [SCHEDULER] Starting unattended turn (PID 511923).
+[2026-06-05 20:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 20:45:01] [SCHEDULER] Another turn is running (PID 511923). Skipping.
+[2026-06-05 20:54:11] [SCHEDULER] Turn completed successfully.
+[2026-06-05 20:54:11] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -100
+--- Email 1 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Re: Strategic Direction Prompt for External LLM
+Date: Fri, 5 Jun 2026 20:13:58 -0600
+------------------------------------------------------------
+Body preview: Sounds good. I need to conduct grocery shopping, so I'll be away from the
+computer for a while. Work on other tasks and I'll feed you the prompt
+response when I return home. We'll chat soon.
+
+Dary...
+
+Total: 1 email(s)
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1
+No emails found.
+[0m
+Daryl's gone grocery shopping, wants me to work on other tasks. Stock prediction is blocked waiting for his external LLM response. Let me reply and find other work.
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/send_html_email.py "daryl.allen.jr@gmail.com" "Re: Strategic Direction Prompt for External LLM" "<html><body style='font-family:Arial,sans-serif;max-width:650px;margin:0 auto;padding:20px;background:#1a1a2e;color:#e0e0e0;'><div style='background:#16213e;border-radius:8px;padding:24px;'><h2 style='color:#00d4ff;margin-top:0;'>Got it — take your time</h2><p>No rush at all. Enjoy the grocery run. I'll use this turn to work on other tasks while you're out.</p><p>Wh...
+[2026-06-05 20:54:11] [SCHEDULER] Turn finished. Next check in 10 minutes.
+[2026-06-05 21:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 21:00:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 21:00:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 21:00:02] [SCHEDULER] Starting unattended turn (PID 512421).
+[2026-06-05 21:05:48] [SCHEDULER] Turn completed successfully.
+[2026-06-05 21:05:48] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -200
+--- Email 1 ---
+From: Daryl Allen <daryl.allen.jr@gmail.com>
+Subject: Re: Test --subject fix
+Date: Fri, 5 Jun 2026 20:53:49 -0600
+------------------------------------------------------------
+Body preview: Looks like you messaged me twice on this topic. Do you check if an email
+has been responded to before you decide to respond?
+
+Daryl
+
+On Fri, Jun 5, 2026, 8:49 PM <bot.daryl.allen@gmail.com> wrote...
+
+Total: 1 email(s)
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --full 2>&1 | head -300
+usage: read_emails.py [-h] [--query QUERY] [--folder FOLDER] [--limit LIMIT]
+read_emails.py: error: unrecognized arguments: --full
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --help 2>&1
+usage: read_emails.py [-h] [--query QUERY] [--folder FOLDER] [--limit LIMIT]
+
+Read emails from Gmail inbox via IMAP
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --query QUERY    IMAP search query (default: UNSEEN)
+  --folder FOLDER  Mailbox folder (default: inbox)
+  --limit LIMIT    Maximum emails to retrieve
+
+Examples:
+    # Read all unread emails
+    python read_emails.py
+    
+    # Read unread emails with limit
+    python read_emails.py --limit 5
+    
+    # Search for emails from specific sender
+    python r...
+[2026-06-05 21:05:48] [SCHEDULER] Turn finished. Next check in 10 minutes.
+[2026-06-05 21:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 21:15:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-05 21:15:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-05 21:15:02] [SCHEDULER] Starting unattended turn (PID 512754).
+[2026-06-05 21:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 21:30:01] [SCHEDULER] Another turn is running (PID 512754). Skipping.
+[2026-06-05 21:38:54] [SCHEDULER] Turn completed successfully.
+[2026-06-05 21:38:54] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m→ [0mRead tools/unattended/activity_log.md
+Now checking email inbox for new messages.
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --inbox --limit 20 2>&1
+usage: search_emails.py [-h] --query QUERY [--folder FOLDER] [--limit LIMIT]
+search_emails.py: error: the following arguments are required: --query
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --query "" --folder INBOX --limit 20 2>&1
+IMAP error: SEARCH command error: BAD [b'Could not parse command']
+No emails found.
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --query "from:daryl.allen.jr" --folder INBOX --limit 20 2>&1
+IMAP error: SEARCH command error: BAD [b'Could not parse command']
+No emails found.
+[0m
+[0m→ [0mRead tools/llm-email-automation/src/search_emails.py
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/search_emails.py --query "ALL" --folder INBOX --limit 20 2>&1
+--- Email 1 ---
+From: Sara Palacio <sara.palacio.esp@gmail.com>
+Subject: Re: Email 8 of 9: Doctor Questionnaire 🌸
+Body: En noviembre 2025, También me operaron de endometriosis profunda en trompa
+de Falopio. El cirujano retiró la trompa completa, hoy solo tengo una
+trompa.
+
+Y de la cirugía en 2015 , se cortó medio o...
+
+--- Email 2 ---
+From: HackThisSite <no-reply@hackthissite.org>
+Subject: HackThisSite.org Registration
+Body: Hi there!
+
+Your registration on HackThisSite.org is almost complete!
+
+To finish registering Codex_Bot please go to the following URL:
+
+  https://www.hackthissite.org/register/confirm/Ba04HBj6GdK...
+
+--- Email 3 ---
+From: GitHub <noreply@github.com>
+Subject: [GitHub] Please verify your device
+Bo[2026-06-05 21:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 21:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-05 22:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-05 22:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 05:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 05:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 06:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 06:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 06:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 06:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 06:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 06:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 06:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 06:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 07:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 07:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 07:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 07:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 07:30:02] [SCHEDULER] Scheduler check started.
+[2026-06-06 07:30:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 07:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 07:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 11:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 11:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 11:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 11:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 11:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 11:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 12:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 12:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 12:15:02] [SCHEDULER] Scheduler check started.
+[2026-06-06 12:15:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 12:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 12:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 12:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 12:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 13:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 13:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 13:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 13:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 13:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 13:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 13:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 13:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 14:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 14:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 14:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 14:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 14:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 14:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 14:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 14:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 15:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 15:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 15:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 15:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 15:30:02] [SCHEDULER] Scheduler check started.
+[2026-06-06 15:30:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 15:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 15:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 16:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 16:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 16:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 16:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 16:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 16:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 16:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 16:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 17:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 17:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 17:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 17:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 17:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 17:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 17:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 17:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 18:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 18:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 18:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 18:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 18:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-06 18:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-06 18:45:02] [SCHEDULER] Scheduler check started.
+[2026-06-06 18:45:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 01:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 01:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 01:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 01:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 01:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 01:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 01:45:02] [SCHEDULER] Scheduler check started.
+[2026-06-07 01:45:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 02:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 02:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 02:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 02:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 02:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 02:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 02:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 02:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 03:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 03:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 03:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 03:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 17:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 17:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 17:15:02] [SCHEDULER] Scheduler check started.
+[2026-06-07 17:15:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 17:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 17:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 17:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 17:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 18:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 18:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 18:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 18:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 18:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 18:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 18:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 18:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 19:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 19:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 19:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 19:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 19:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 19:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 19:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 19:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 20:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 20:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 20:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 20:15:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 20:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 20:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 20:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 20:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 21:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 21:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 21:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 21:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 21:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 21:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 21:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 21:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 22:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 22:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 22:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 22:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-07 22:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-07 22:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 06:15:02] [SCHEDULER] Scheduler check started.
+[2026-06-08 06:15:02] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 06:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 06:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 06:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 06:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 07:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 07:00:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-08 07:00:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-08 07:00:02] [SCHEDULER] Starting unattended turn (PID 3395).
+[2026-06-08 07:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 07:15:01] [SCHEDULER] Another turn is running (PID 3395). Skipping.
+[2026-06-08 07:30:02] [SCHEDULER] Scheduler check started.
+[2026-06-08 07:30:02] [SCHEDULER] Another turn is running (PID 3395). Skipping.
+[2026-06-08 07:36:38] [SCHEDULER] Turn completed successfully.
+[2026-06-08 07:36:38] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m
+[0m$ [0mpython3 tools/llm-email-automation/src/read_emails.py 2>&1 | head -80
+No emails found.
+[0m
+[0m$ [0mpython3 tools/Web_Search/search.py "github anomalyco opencode PR 30293" 2>&1 | head -60
+Searching for: github anomalyco opencode PR 30293
+
+================================================================================
+SEARCH RESULTS: github anomalyco opencode PR 30293
+Source: searxng
+Timestamp: 2026-06-08 07:01:47
+Results Found: 5
+================================================================================
+
+1. Streaming response truncates at backticks when using separate ...
+   URL: https://github.com/anomalyco/opencode/issues/15774
+   Engine: google
+   Mar 2, 2026 ... anomalyco / opencode Public. Notifications You must be signed in to ... github-actions. mentioned this in 3 issues on Apr 24 · Qwen3.6-Plus ...
+
+2. GitHub - OpenCode
+   URL: https://opencode.ai/docs/github/
+   Engine: startpage
+   Use this to customize how OpenCode processes requests. token: Optional GitHub access token for performing operations such as creating comments, committing changes, and opening pull requests. By default, OpenCode uses the installation access token from the OpenCode GitHub App, so commits, comments, a
+
+3. anomalyco/opencode: The open source coding agent. - GitHub
+   URL: https://github.com/anomalyco/opencode
+   Engine: startpage
+   If you're interested in contributing to OpenCode, please read our contributing docs before...
+[2026-06-08 07:36:38] [SCHEDULER] Turn finished. Next check in 10 minutes.
+[2026-06-08 07:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 07:45:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-08 07:45:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-08 07:45:02] [SCHEDULER] Starting unattended turn (PID 4265).
+[2026-06-08 08:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 08:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 08:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 08:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 08:22:27] [SCHEDULER] Turn completed successfully.
+[2026-06-08 08:22:27] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m→ [0mRead tools/unattended/activity_log.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py 2>&1 | head -80
+No emails found.
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --help 2>&1
+usage: read_emails.py [-h] [--query QUERY] [--folder FOLDER] [--limit LIMIT]
+
+Read emails from Gmail inbox via IMAP
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --query QUERY    IMAP search query (default: UNSEEN)
+  --folder FOLDER  Mailbox folder (default: inbox)
+  --limit LIMIT    Maximum emails to retrieve
+
+Examples:
+    # Read all unread emails
+    python read_emails.py
+    
+    # Read unread emails with limit
+    python read_emails.py --limit 5
+    
+    # Search for emails from specific sender
+    python read_emails.py --query 'FROM "example.com"'
+    
+    # Search for unread emails
+    python read_emails.py --query "UNSEEN"
+    
+    # Search for emails since date
+    python read_emails.py --query 'SINCE "2024-01-01"'
+    python read_emails.py --query 'BEFORE "2024-12-31"'
+[0m
+[0m# [0mTodos
+[✓] Check email inbox - DONE, no new emails
+[•] Phase F: Build Sequential Filter stock screener prototype
+[ ] Send turn report to Daryl
+[ ] Update state.json, activity_log.md, directives.md
+[0m
+No new emails. Moving to the highest-priority active directive: **Phase F — Build Sequential Filter Prototype**.
+[0m→ [0mRea[2026-06-08 08:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 08:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 08:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 08:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 09:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 09:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 09:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 09:15:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-08 09:15:01] [SCHEDULER] GPU busy (utilization > 20%): 0%, 100%, 0%. Skipping turn.
+[2026-06-08 09:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 09:30:01] [SCHEDULER] Checking GPU utilization on AI-box...
+[2026-06-08 09:30:02] [SCHEDULER] GPU idle (utilization <= 20%): 0%, 0%, 0%. Proceeding.
+[2026-06-08 09:30:02] [SCHEDULER] Starting unattended turn (PID 5819).
+[2026-06-08 09:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 09:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 10:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 10:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 10:09:24] [SCHEDULER] Turn completed successfully.
+[2026-06-08 10:09:24] [TURN OUTPUT]
+[0m
+> build · Qwen3.6-27B-Q6_K.gguf
+[0m
+[0m→ [0mRead tools/unattended/state.json
+[0m→ [0mRead tools/unattended/guardrails.md
+[0m→ [0mRead tools/unattended/directives.md
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py 2>&1 | head -100
+python3: can't open file '/home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/check_email.py': [Errno 2] No such file or directory
+[0m
+[0m✱ [0mGlob "tools/llm-email-automation/src/*.py"[90m 8 matches[0m
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --max 20 2>&1
+usage: read_emails.py [-h] [--query QUERY] [--folder FOLDER] [--limit LIMIT]
+read_emails.py: error: unrecognized arguments: --max 20
+[0m
+[0m$ [0mpython3 /home/daryl/Documents/ai_workloads/tools/llm-email-automation/src/read_emails.py --limit 20 2>&1
+No emails found.
+[0m
+[0m✱ [0mGlob "home/daryl/Documents/ai_workloads/future_project_ideas/stock_market_prediction/factor_strategies/**/*.py"[90m 0 matches[0m
+[0m✱ [0mGlob "home/daryl/Documents/ai_workloads/future_project_ideas/stock_market_prediction/factor_tilts/**/*.py"[90m 0 matches[0m
+No new emails. Moving to Phase G — ETF Comparison Backtest. Let me examine existing code.
+[0m✱ [0mGlob "/home/daryl/Documents/ai_workloads/**/factor_strategies/**/*.py"[90m 0 matches[0m
+[0m✱ [0mGlob "/home/daryl/Documents/ai_workloads/**/factor_tilts/**/*.py"[90m 0 matches[0m
+[0m✱ [0mGlob "/home/daryl/Documents/ai_workloads/**/sequential_filter/**/*.py"[90m 0 matches[0m
+[0m
+[0m$ [0mls -la /home/daryl/Documents/ai_workloads/future_project_ideas/stock_market_prediction/ 2>&1
+total 72
+drwxr-xr-x.  2 daryl daryl    119 Jun  8 06:54 .
+drwxrwxr-x. 15 daryl aiwork  4096 Jun  6 11:09 ..
+-rw-r--r--.  1 daryl daryl  30300 Jun  8 07:24 BEATING_BUY_HOLD.md
+-rw-r--r--.  1 daryl daryl  11415 Jun  5 21:24 dual_momentum_backtest.py
+-rw-r--r--.  1 daryl daryl  14608 Jun  5 21:31 d[2026-06-08 10:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 10:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 10:30:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 10:30:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 10:45:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 10:45:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 11:00:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 11:00:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 11:09:11] [SCHEDULER] Scheduler check started.
+[2026-06-08 11:09:11] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
+[2026-06-08 11:15:01] [SCHEDULER] Scheduler check started.
+[2026-06-08 11:15:01] [SCHEDULER] Unattended execution disabled (UNATTENDED_EXECUTION=false). Exiting.
