@@ -158,6 +158,7 @@ except Exception as e:
 }
 
 # Extract session ID from opencode JSON output
+# Every JSON event line contains a sessionID field — extract from first valid line
 extract_session_id() {
     local output_file="$1"
     python3 -c "
@@ -170,16 +171,10 @@ try:
             continue
         try:
             event = json.loads(line)
-            if event.get('type') == 'session.created':
-                sid = event.get('session', {}).get('id', '')
-                if sid:
-                    print(sid)
-                    sys.exit(0)
-            elif event.get('type') == 'session.updated' and 'id' in event.get('session', {}):
-                sid = event['session']['id']
-                if sid and sid.startswith('ses_'):
-                    print(sid)
-                    sys.exit(0)
+            sid = event.get('sessionID', '') or event.get('session', {}).get('id', '')
+            if sid and sid.startswith('ses_'):
+                print(sid)
+                sys.exit(0)
         except json.JSONDecodeError:
             continue
     print('')

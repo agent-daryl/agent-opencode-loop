@@ -30,7 +30,7 @@ These rules are enforced during unattended execution. Violations go in `approval
 
 - Reading and writing files within the workspace
 - Running Python scripts
-- Web browsing and search
+- Web browsing and research
 - Email communication (with AI disclosure)
 - GitHub operations (commits, PRs, issues)
 - SSH to AI-box (12 allowed commands only)
@@ -38,6 +38,15 @@ These rules are enforced during unattended execution. Violations go in `approval
 - Installing Python packages in venv
 - Generating and sending HTML emails to Daryl
 - Updating activity logs and state files
+
+## Web Fetch Rules (CRITICAL)
+
+When using `WebFetch` or similar tools to fetch web content:
+1. **NEVER fetch URLs that return binary content** — PDFs (.pdf), images, .ashx document handlers, .aspx downloads, or any URL returning non-text data
+2. **Avoid known PDF endpoints** — `.pdf`, `/documents.ashx`, `/handlers/documents`, `/download`, `.docx`, `.xlsx`
+3. **Pre-flight check (RECOMMENDED):** Before fetching a URL with WebFetch, run: `python3 tools/shared/url_content_check.py "URL_HERE"`. If it says BLOCK, skip the URL.
+4. **If a fetched URL returns binary or garbled content, STOP immediately** — do not continue the turn. The binary data will corrupt the session context and persist across rotations. Log the error and skip to the next task.
+5. **For research papers:** use search results with abstracts/snippets instead of fetching full PDFs. If a PDF is essential, use the Browser_Emulator tool instead of WebFetch.
 
 ## Actions Requiring Approval
 

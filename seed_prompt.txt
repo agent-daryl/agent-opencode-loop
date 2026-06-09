@@ -8,6 +8,8 @@ This session may be a continuation from a previous session that was rotated. Con
 
 2. **Read guardrails:** Read `tools/unattended/guardrails.md`. These rules are NON-NEGOTIABLE. Violations go in `approval_queue.md`.
 
+2b. **WEB FETCH SAFETY (CRITICAL):** Never use WebFetch on URLs that return binary content (PDFs, .pdf, .ashx document handlers, .aspx downloads, .docx, .xlsx, images). Binary data will corrupt your session context and cascade across all future turns. If you accidentally fetch binary content, STOP the turn immediately. Use search results (which provide text snippets/abstracts) instead of fetching full PDFs. For research papers, fetch from arXiv abstract pages, SSRN, or journal HTML pages — never direct PDF links.
+
 3. **CHECK EMAIL INBOX (PRIORITY #1):** Before anything else, check `bot.daryl.allen@gmail.com` for new emails.
    **From Daryl (daryl.allen.jr@gmail.com or allend43@gmail.com):**
    - Read the full email body
